@@ -1,3 +1,36 @@
+ <b>Note : <br> 
+ <pre>after installing nvm if you are getting permission error like below
+ Downloading and installing node v16.13.1...
+Downloading https://nodejs.org/dist/v16.13.1/node-v16.13.1-linux-x64.tar.xz...
+Warning: Failed to open the file                                                                                                      
+Warning: /home/amrish/.nvm/.cache/bin/node-v16.13.1-linux-x64/node-v16.13.1-lin
+Warning: ux-x64.tar.xz: Permission denied
+                                                                                                                                   0.0%curl: (23) Failure writing output to destination
+
+Binary download from https://nodejs.org/dist/v16.13.1/node-v16.13.1-linux-x64.tar.xz failed, trying source.
+grep: /home/amrish/.nvm/.cache/bin/node-v16.13.1-linux-x64/node-v16.13.1-linux-x64.tar.xz: No such file or directory
+Provided file to checksum does not exist.
+Binary download failed, trying source.
+Detected that you have 4 CPU core(s)
+Running with 3 threads to speed up the build
+Downloading https://nodejs.org/dist/v16.13.1/node-v16.13.1.tar.xz...
+Warning: Failed to open the file                                                                                                      
+Warning: /home/amrish/.nvm/.cache/src/node-v16.13.1/node-v16.13.1.tar.xz: 
+Warning: Permission denied
+                                                                                                                                   0.0%curl: (23) Failure writing output to destination
+
+Binary download from https://nodejs.org/dist/v16.13.1/node-v16.13.1.tar.xz failed, trying source.
+grep: /home/amrish/.nvm/.cache/src/node-v16.13.1/node-v16.13.1.tar.xz: No such file or directory
+Provided file to checksum does not exist.
+
+ </pre>
+ <b> use this below command </b>
+ <code>sudo apt-get install build-essential libssl-dev curl git-core</code>
+
+
+
+
+
 <a href="https://github.com/nvm-sh/logos"><img alt="nvm project logo" src="https://raw.githubusercontent.com/nvm-sh/logos/HEAD/nvm-logo-color.svg" height="50" /></a>
 
 # Node Version Manager [![Build Status](https://app.travis-ci.com/nvm-sh/nvm.svg?branch=master)][3] [![nvm version](https://img.shields.io/badge/version-v0.39.3-yellow.svg)][4] [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/684/badge)](https://bestpractices.coreinfrastructure.org/projects/684)
